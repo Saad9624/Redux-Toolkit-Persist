@@ -1,5 +1,4 @@
 import { configureStore ,getDefaultMiddleware} from '@reduxjs/toolkit'
-import counterReducer from '../features/counter/counterSlice';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import rootReducer from '../features';
 import {
